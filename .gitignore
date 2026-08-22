@@ -1,0 +1,43 @@
+# =========================
+# KiCad
+# =========================
+
+# Backup directories
+*-backups/
+
+# Backup files
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Autosave / temporary files
+_autosave-*
+*.tmp
+
+# KiCad local/session settings
+*.kicad_prl
+
+# Lock files
+~*.lck
+*.lck
+
+# =========================
+# Generated manufacturing files
+# =========================
+
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+*.rpt
+*.d356
+*.zip
+
+# =========================
+# OS
+# =========================
+
+Thumbs.db
+.DS_Store
+desktop.ini
+.history/
