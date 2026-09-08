@@ -1,0 +1,9 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DRV8244HQ") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/DRV8244HQDGQRQ1.kicad_sym") (options "") (descr "Motordriver IC"))
+	(lib (name "TPS54628") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/TPS54628DDAR.kicad_sym") (options "") (descr "DCDC converter"))
+	(lib (name "STP130N6F7") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/STP130N6F7.kicad_sym") (options "") (descr "MOSFET"))
+	(lib (name "SF1206HHA3000R-2") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/SF-1206HHA3000R-2.kicad_sym") (options "") (descr "Fuse"))
+	(lib (name "SMCJ18CA") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/SMCJ18CA.kicad_sym") (options "") (descr "TVS dioede"))
+	(lib (name "LTC4365ITS8-1#TRPBF") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/LTC4365ITS8-1#TRPBF.kicad_sym") (options "") (descr ""))
+)

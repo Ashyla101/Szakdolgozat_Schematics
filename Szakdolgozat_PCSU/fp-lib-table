@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Szakdoga_PowerMan") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Footprints.pretty") (options "") (descr ""))
+)

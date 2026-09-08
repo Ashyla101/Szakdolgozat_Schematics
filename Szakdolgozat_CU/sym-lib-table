@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "STM32F446RET") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/STM32F446RET6TR.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS2117DRLR") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/TPS2117DRLR.kicad_sym") (options "") (descr ""))
+)

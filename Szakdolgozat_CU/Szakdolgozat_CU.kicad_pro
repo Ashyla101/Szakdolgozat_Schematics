@@ -449,7 +449,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -489,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Szakdolgozat_PCSU.kicad_pro",
+    "filename": "Szakdolgozat_CU.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -610,7 +609,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -641,33 +640,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Szakdolgozat_PCSU.kicad_sch",
-        "name": "Gyökér",
-        "uuid": "7dedd975-a421-4fd7-bcb8-a9f9c9e19d4a"
+        "filename": "Szakdolgozat_CU.kicad_sch",
+        "name": "Szakdolgozat_CU",
+        "uuid": "faff9349-e983-4270-be64-3fbf813e6ecf"
       }
     ],
-    "used_designators": "IC1-5,R1-21,C1-22,#PWR1-40,L1,D1-8,R_M1-2,Cr1,D_R1-3,R_IP1-3,R_IT1-2,SR_R1-2,JP1-8,J1-8,U1,Q1-2,F1",
+    "used_designators": "R1-9,J1-5,J7-12,IC1-2,U1-3,D1-3,#PWR1-16,C1-14,Y1,SW1-2",
     "variants": []
   },
   "sheets": [
     [
-      "7dedd975-a421-4fd7-bcb8-a9f9c9e19d4a",
-      "Gyökér"
+      "faff9349-e983-4270-be64-3fbf813e6ecf",
+      "Szakdolgozat_CU"
     ]
   ],
   "text_variables": {},
