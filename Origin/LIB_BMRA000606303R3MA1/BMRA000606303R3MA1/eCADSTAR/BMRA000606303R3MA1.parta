@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_17481250"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-21-07:26:42)
+    (utime 2026-02-04-14:20:06)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BMRA000606303R3MA1")
+)
+
+
+(pinAssign "ECS_17481250"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-21-07:26:42)
+    (utime 2026-02-04-14:20:06)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17481250")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BMRA000606303R3MA1")
+)
+
+
+(part "BMRA000606303R3MA1"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-21-07:26:42)
+    (utime 2026-02-04-14:20:06)
+    (packageRef "BMRA000606303R3MA1")
+    (pinAssignRef "ECS_17481250")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "3.3 H Shielded Molded Inductor 6 A 35mOhm Max Nonstandard")
+    (property "Mouser_Part_Number" "603-BMRA0606303R3MA1")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/BMRA000606303R3MA1?qs=DRkmTr78QAS9Fi6ntzHpYA%3D%3D")
+    (property "Manufacturer_Name" "Yageo Group")
+    (property "Manufacturer_Part_Number" "BMRA000606303R3MA1")
+    (property "Datasheet_Link" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/bmra000606303r3ma1")
+    (property "compAreaTopHeight" 3)
+)
+
+

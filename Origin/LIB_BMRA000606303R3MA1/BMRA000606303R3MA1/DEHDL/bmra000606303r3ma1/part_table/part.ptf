@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BMRA000606303R3MA1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Yageo Group", "BMRA000606303R3MA1" (!) = "", "BMRA000606303R3MA1", "Other", "603-BMRA0606303R3MA1", "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/BMRA000606303R3MA1?qs=DRkmTr78QAS9Fi6ntzHpYA%3D%3D", "3.3 H Shielded Molded Inductor 6 A 35mOhm Max Nonstandard", "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/bmra000606303r3ma1", "3 mm"
+END_PART
+
+END.

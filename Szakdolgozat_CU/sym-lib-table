@@ -3,4 +3,6 @@
 	(lib (name "STM32F446RET") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/STM32F446RET6TR.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS2117DRLR") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/TPS2117DRLR.kicad_sym") (options "") (descr ""))
 	(lib (name "W25Q256JVEIQ_TR") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/W25Q256JVEIQ_TR.kicad_sym") (options "") (descr ""))
+	(lib (name "STM32F446VET") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/STM32F446VET6.kicad_sym") (options "") (descr ""))
+	(lib (name "ECS8083QBJ") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Symbols/ECS-80-8-30BQ-JES-TR.kicad_sym") (options "") (descr ""))
 )

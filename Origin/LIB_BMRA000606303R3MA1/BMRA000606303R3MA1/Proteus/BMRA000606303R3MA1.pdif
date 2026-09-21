@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BMRA000606303R3MA1"
+   (description "3.3 H Shielded Molded Inductor 6 A 35mOhm Max Nonstandard")
+   (family "IND")
+   (package "BMRA000606303R3MA1")
+   (attribute "Datasheet Link" "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/bmra000606303r3ma1")
+   (attribute "Geometry.Height" "3mm")
+   (attribute "Mouser Part Number" "603-BMRA0606303R3MA1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/BMRA000606303R3MA1?qs=DRkmTr78QAS9Fi6ntzHpYA%3D%3D")
+   (attribute "Manufacturer_Name" "Yageo Group")
+   (attribute "Manufacturer_Part_Number" "BMRA000606303R3MA1")
+   (gate
+    (symbol "BMRA000606303R3MA1")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "BMRA000606303R3MA1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 200 0) (pt 200 -52) (pt 300 48) (start -175.4) (sweep 177.7)) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 300 0) (pt 300 -52) (pt 400 48) (start -175.4) (sweep 177.7)) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 0) (pt 400 -52) (pt 500 48) (start -175.4) (sweep 177.7)) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 500 0) (pt 500 -52) (pt 600 48) (start -175.4) (sweep 177.7)) (pt 600 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BMRA000606303R3MA1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.65 3.3)
+      (pt 3.65 3.3)
+      (pt 3.65 -3.3)
+      (pt -3.65 -3.3)
+      (pt -3.65 3.3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.2 4.3)
+      (pt 5.2 4.3)
+      (pt 5.2 -4.3)
+      (pt -5.2 -4.3)
+      (pt -5.2 4.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.8 0)
+      (arc (pt -4.800 0.000) (pt -4.800 -0.050) (pt -4.700 0.050) (start 180.0) (sweep 180.0))
+      (pt -4.7 0)
+      (arc (pt -4.700 0.000) (pt -4.800 -0.050) (pt -4.700 0.050) (start 180.0) (sweep .0))
+      (pt -4.8 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.65 2.2)
+      (pt -3.65 3.3)
+      (pt 3.65 3.3)
+      (pt 3.65 2.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.65 -2.2)
+      (pt -3.65 -3.3)
+      (pt 3.65 -3.3)
+      (pt 3.65 -2.2))))
+   (leg 1 (pt -3.025 0.000) (padstack 0))
+   (leg 2 (pt 3.025 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.350 3.500 0 0 90.000))
+   )
+   (model "BMRA000606303R3MA1.stp"
+    (euler 0 0 0)
+    (offset 0 0 1.5)
+   )
+  )
+ )
+)

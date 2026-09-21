@@ -1,0 +1,9 @@
+Manufacturer=Yageo Group
+PartNumber=BMRA000606303R3MA1
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2025-01-21 07:26:42
+Downloaded=2026-09-14 00:20:09
+3D=Y
