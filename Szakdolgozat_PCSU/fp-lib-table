@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "Szakdoga_PowerMan") (type "KiCad") (uri "${KIPRJMOD}/Libaries/Footprints.pretty") (options "") (descr ""))
 	(lib (name "CustomFootprints") (type "KiCad") (uri "${KIPRJMOD}/Libaries/CustomFootprints.pretty") (options "") (descr ""))
+	(lib (name "NetTie_1mm") (type "KiCad") (uri "${KIPRJMOD}/Libaries/CustomFootprints.pretty/NetTie_1mm.pretty") (options "") (descr ""))
+	(lib (name "NetTie") (type "KiCad") (uri "${KIPRJMOD}/Libaries/NetTie.pretty") (options "") (descr ""))
 )
