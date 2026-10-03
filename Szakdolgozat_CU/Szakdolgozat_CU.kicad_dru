@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "IC1 pad clearance"
+  (condition "A.memberOfFootprint('IC1') || B.memberOfFootprint('IC1')")
+  (constraint clearance (min 0.15mm))
+)
+
+(rule "IC3 pad clearance"
+  (condition "A.memberOfFootprint('IC3') || B.memberOfFootprint('IC3')")
+  (constraint clearance (min 0.10mm))
+)
