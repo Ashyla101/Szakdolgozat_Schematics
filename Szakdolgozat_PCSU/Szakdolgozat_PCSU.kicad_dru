@@ -10,7 +10,9 @@
     (constraint clearance (min 0.15mm))
 )
 
-(rule "NetTie zone overlap"
-    (condition "((A.memberOfFootprint('NT1') && B.Type == 'Zone') || (B.memberOfFootprint('NT1') && A.Type == 'Zone'))")
-    (constraint clearance (min -0.01mm))
+# LTC4365: 0.20 mm pad gap, local pad-to-pad exception only.
+# JLCPCB published SMD pad-to-pad minimum: 0.15 mm.
+(rule "IC4 adjacent pads"
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('IC4') && B.memberOfFootprint('IC4')")
+  (constraint clearance (min 0.20mm))
 )

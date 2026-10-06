@@ -4923,12 +4923,7 @@
 		(color 0 0 0 0)
 		(uuid "8b341723-7af7-42c7-949f-449f112df522")
 	)
-	(junction
-		(at 247.65 309.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "905761e7-c817-4625-abc2-33fc4424c224")
-	)
+	
 	(junction
 		(at 223.52 73.66)
 		(diameter 0)
@@ -5469,16 +5464,7 @@
 		)
 		(uuid "2b3d8cec-6f51-4269-ba31-11dcf7b315bf")
 	)
-	(wire
-		(pts
-			(xy 247.65 309.88) (xy 261.62 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2debc3b4-0a72-45f8-96a6-18bb6f0524e6")
-	)
+	
 	(wire
 		(pts
 			(xy 361.95 290.83) (xy 363.22 290.83)
@@ -5489,16 +5475,7 @@
 		)
 		(uuid "2e0409d5-6906-4a09-b2b6-7e16bdd1c17b")
 	)
-	(wire
-		(pts
-			(xy 228.6 309.88) (xy 238.76 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e724946-e3d5-433a-8a11-7531510f500c")
-	)
+	
 	(wire
 		(pts
 			(xy 266.7 73.66) (xy 266.7 76.2)
@@ -7609,16 +7586,7 @@
 		)
 		(uuid "ea29e22e-8596-4fb0-8845-5580ed12494e")
 	)
-	(wire
-		(pts
-			(xy 243.84 309.88) (xy 247.65 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaab9621-3e79-4ca4-bead-03ab1818efac")
-	)
+	
 	(wire
 		(pts
 			(xy 306.07 307.34) (xy 306.07 309.88)
@@ -35492,16 +35460,7 @@
 			)
 		)
 	)
-	(label "12V_TVS"
-		(at 261.62 309.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05d7b330-02c5-4730-9382-b3a90eb598ff")
-	)
+	
 	(label "M1_EN{slash}IN1"
 		(at 337.82 45.72 0)
 		(effects
@@ -36234,16 +36193,7 @@
 		)
 		(uuid "e6f85e2a-1e18-43ec-a524-be842e1e40ee")
 	)
-	(label "12V_FUSE"
-		(at 228.6 309.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3cb7871-62be-4063-8467-8f0ec939f517")
-	)
+	
 	(label "M1_OUT2"
 		(at 337.82 71.12 0)
 		(effects
@@ -39462,86 +39412,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 241.3 309.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5567b2e2-971b-4da0-82bc-49d7b44fa9a9")
-		(property "Reference" "NT1"
-			(at 241.3 304.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 241.3 307.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 241.3 309.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "af6d6ed3-8a21-4306-9650-e0559e87eec4")
-		)
-		(pin "1"
-			(uuid "97e55c6e-54c2-4985-95ea-ee616990eef3")
-		)
-		(instances
-			(project "Szakdolgozat_PCSU"
-				(path "/7dedd975-a421-4fd7-bcb8-a9f9c9e19d4a"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "power:GNDPWR")
 		(at 459.74 34.29 0)
@@ -43244,7 +43115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://hu.mouser.com/datasheet/3/76/4/GRM319R61C226KE15_04A.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf"
 			(at 373.38 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -43266,7 +43137,7 @@
 				)
 			)
 		)
-		(property "Link" "https://hu.mouser.com/en/ProductDetail/Murata-Electronics/GRM319R61C226KE15D?qs=eeBpzGFlv%252B%252BgKZpdhYn80g%3D%3D"
+		(property "Link" "https://hu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71H103KA01D"
 			(at 373.38 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -44799,4 +44670,182 @@
 		)
 	)
 	(embedded_fonts no)
+
+(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bfbf06e-6d2b-42a4-a86c-b323bdfe9fc6")
+		(property "Reference" "#FLG02"
+			(at 64.77 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 64.77 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "094d8dd4-2133-4c1b-ac81-a786e5be5b68")
+		)
+		(instances
+			(project "Szakdolgozat_PCSU"
+				(path "/7dedd975-a421-4fd7-bcb8-a9f9c9e19d4a"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 87.63 309.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14a008a4-1061-4fd8-b88b-916a8039918a")
+		(property "Reference" "#FLG03"
+			(at 87.63 307.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 87.63 304.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 87.63 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60e54163-31fe-4e33-a845-0f34e291e4b4")
+		)
+		(instances
+			(project "Szakdolgozat_PCSU"
+				(path "/7dedd975-a421-4fd7-bcb8-a9f9c9e19d4a"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+(wire
+		(pts
+			(xy 247.65 309.88) (xy 261.62 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2debc3b4-0a72-45f8-96a6-18bb6f0524e6")
+	)
+(label "12V_TVS"
+		(at 261.62 309.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05d7b330-02c5-4730-9382-b3a90eb598ff")
+	)
 )
